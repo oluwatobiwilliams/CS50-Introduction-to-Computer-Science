@@ -1,0 +1,20 @@
+Installing C compiler and debugger using MSYS2
+
+List all gcc packages available
+> pacman -Ss gcc
+
+1. C Compiler
+mingw-w64-x86_64-gcc
+
+> pacman -S mingw-w64-x86_64-gcc
+
+2. C++ Compiler
+mingw-w64-x86_64-g++
+
+> pacman -S mingw-w64-x86_64-gcc
+
+
+3. Debugger
+mingw-w64-x86_64-gdb
+
+> pacman -S mingw-w64-x86_64-gdb
